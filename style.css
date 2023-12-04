@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mealStyle {
+    margin: 20px;
+    padding: 20px;
+    border: 6px dashed crimson;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.mealStyle img {
+    width: 300px;
+    border-radius: 20px;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#searchBox{
+    margin: 20px;
+    padding: 10px 8px;
+    width: 350px;
+    height: 30px;
+}
+
+#btn{
+    margin: 20px 4px;
+    padding: 8px 12px;
+    border-radius: 16px;
+    font-weight: 700;
+}
+
+#btn:hover{
+    background-color: lemonchiffon;
+    color: chocolate;
+    font-weight: 700;
+}
+
+#searchBar{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 20px;
+}
+
+h1, h2, h3{
+    color: crimson;
+}
